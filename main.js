@@ -23,25 +23,25 @@ function gotresults(error,results){
     if(results[0].label == "yeah"){
         woah.style.filter="grayscale(0)"
         nootnoot.style.filter="grayscale(1)"
-        window.style.filter="grayscale(1)"
+        windows.style.filter="grayscale(1)"
         mario.style.filter="grayscale(1)"
     } 
     else  if(results[0].label == "Pingu"){
         woah.style.filter="grayscale(1)"
         nootnoot.style.filter="grayscale(0)"
-        window.style.filter="grayscale(1)"
+        windows.style.filter="grayscale(1)"
         mario.style.filter="grayscale(1)"
     } 
     else  if(results[0].label == "windows"){
         woah.style.filter="grayscale(1)"
         nootnoot.style.filter="grayscale(1)"
-        window.style.filter="grayscale(0)"
+        windows.style.filter="grayscale(0)"
         mario.style.filter="grayscale(1)"
     } 
     else  if(results[0].label == "mauro"){
         woah.style.filter="grayscale(1)"
         nootnoot.style.filter="grayscale(1)"
-        window.style.filter="grayscale(1)"
+        windows.style.filter="grayscale(1)"
         mario.style.filter="grayscale(0)"
     }
 }
